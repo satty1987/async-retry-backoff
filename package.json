@@ -1,0 +1,38 @@
+{
+  "name": "async-retry-backoff",
+  "version": "1.0.0",
+  "description": "Auto-retry async functions with exponential backoff, jitter, timeouts, and abort support.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./src/index.js",
+      "import": "./src/index.js",
+      "types": "./src/index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "node test/index.test.js"
+  },
+  "keywords": [
+    "retry",
+    "exponential-backoff",
+    "backoff",
+    "async",
+    "promise",
+    "resilience",
+    "timeout",
+    "jitter",
+    "abort"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ]
+}
